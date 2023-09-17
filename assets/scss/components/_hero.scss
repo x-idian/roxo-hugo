@@ -14,10 +14,11 @@
     padding: 150px 0;
   }
   &-content{
-    h1, h6 {
+    h6 {
       color: $white;
     }
     h1{
+      @include text-primary-gradient;
       margin-bottom: 75px;
       @include desktop-lg{
         font-size: 50px;
