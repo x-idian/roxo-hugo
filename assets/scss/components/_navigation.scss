@@ -27,8 +27,8 @@
       text-align: center;
     }
     .nav-link{
-      font-family: $secondary-font;
-      color: $text-color;
+      font-family: $primary-font;
+      color: $white;
       font-weight: bold;
       transition: all .3s ease;
       padding: 15px 18px;
@@ -43,7 +43,7 @@
   }
   .dropdown-menu {
     .dropdown-item {
-      font-family: $secondary-font;
+      font-family: $primary-font;
       color: $text-color-dark;
       font-weight: bold;
     }

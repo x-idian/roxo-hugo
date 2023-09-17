@@ -2,8 +2,8 @@
 $body-color: #fff;
 $primary-color: #27A770;
 $secondary-color: #3C6E89;
-$text-color: #FFFFFF;
-$text-color-dark: #000000;
+$text-color: #000000;
+$text-color-dark: #333333;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
 $gray: #F7F9FF;
 $dark-gray: #646569;
@@ -14,5 +14,5 @@ $black: #000;
 $transparent: rgba(0, 0, 0, 0);
 
 // Font Variables
-$primary-font: 'Times New Roman', sans-serif;
-$secondary-font: 'Montserrat', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: sans-serif;

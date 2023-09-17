@@ -6,8 +6,19 @@ body {
   background: $body-color;
 }
 
+.x-bg-primary {
+  background: $primary-color;
+}
+
+.x-bg-secondary {
+  background: $secondary-color;
+  h1, h2, h3, h4, h5, h6, p {
+    color: $white;
+  }
+}
+
 .section-title{
-  margin-bottom: 70px;
+  margin-bottom: 15px;
   @include desktop{
     text-align: center;
   }

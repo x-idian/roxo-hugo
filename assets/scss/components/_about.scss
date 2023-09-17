@@ -1,11 +1,17 @@
 .site-about{
   &-header{
-    padding-top: 80px;
-    background-color: $gray;
+    padding: 120px 0 80px;
+    background-color: $black;
+    h2, p {
+      color: $white
+    }
     @include mobile{
       padding-top: 60px;
       text-align: center;
     }
+  }
+  &-body{
+    padding-top: 60px;
   }
   &-wrapper{
     display: flex;
