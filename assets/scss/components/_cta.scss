@@ -6,21 +6,6 @@
     padding: 100px 0;
   }
   &-title{
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin-bottom: 60px;
-    @include desktop{
-      letter-spacing: 5px;
-    }
-    @include desktop-lg{
-      font-size: 50px;
-      margin-bottom: 40px;
-    }
-    @include mobile{
-      font-size: 40px;
-      letter-spacing: 1;
-    }
   }
   &-buttons{
     margin: 0;
