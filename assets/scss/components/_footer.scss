@@ -6,6 +6,9 @@
     @include mobile{
       text-align: center;
     }
+    img {
+      width: 120px;
+    }
   }
   &-widget{
     @include desktop{

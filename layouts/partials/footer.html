@@ -25,24 +25,12 @@
       </div>
       {{ end }}
       {{ with .Site.Params.footer.sitemap }}
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
           <ul class="site-footer-widget-links">
             {{ range .link }}
             <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Site.Params.footer.social }}
-      <div class="col-lg-2 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <ul class="site-footer-widget-links">
-            {{ range .link }}
-              <li><a href="{{ .url }}">{{ .name }}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -68,7 +56,7 @@
       </div>
       <div class="col-12">
         <div class="site-footer-copyright">
-          <p>© Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+          <p>© X-IDIAN {{ dateFormat "2006" now }} </p>
         </div>
       </div>
     </div>
