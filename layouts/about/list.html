@@ -1,12 +1,12 @@
 {{ define "main" }}
-<section class="site-about-header">
+<section class="site-header">
   <div class="text-center overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">{{ .Params.title | safeHTML }}</h2>
     </div>
   </div>
 </section>
-<section class="site-about-body">
+<section class="site-body">
     {{ range sort .Pages "File.Path" }}
       <div class="{{ .Params.bgColour | default "bg-white" }}">
         <div class="container">
