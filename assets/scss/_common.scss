@@ -17,6 +17,13 @@ body {
   }
 }
 
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .site-header {
   height: 350px;
   background-color: $black;
