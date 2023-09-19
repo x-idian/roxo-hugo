@@ -18,8 +18,11 @@ body {
 }
 
 .site-header {
-  padding: 120px 0 80px;
+  height: 350px;
   background-color: $black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   h2, p {
     color: $white
   }
